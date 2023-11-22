@@ -7,15 +7,15 @@ const appointmentsSchema = new Schema({
         type: Number,
         required: true
     },
-    date: {
+    apDate: {
         type: String,
         trim: true
     },
-    startTime: {
+    apStartTime: {
         type: String,
         trim: true
     },
-    endTime: {
+    apEndTime: {
         type: String,
         trim: true
     },

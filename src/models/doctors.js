@@ -8,7 +8,7 @@ const doctorsSchema = new Schema({
         type: Number,
         required: true
     },
-    docName: {
+    doctorname: {
         type: String,
         trim: true
     },
